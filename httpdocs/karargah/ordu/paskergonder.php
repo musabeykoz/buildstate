@@ -3,9 +3,9 @@ session_start();
 
 // Gerçek veritabanı bilgilerinizi kullanın.
 $servername = "localhost:3306";
-$username = "musa";
-$password = "beykoz";
-$dbname = "yapaynetwork";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Bağlantı oluştur
 $conn = new mysqli($servername, $username, $password, $dbname);
