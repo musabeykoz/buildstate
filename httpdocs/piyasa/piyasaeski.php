@@ -9,9 +9,9 @@ if (!isset($_SESSION['kullanici_id'])) {
 
 // Veritabanı bağlantı bilgileri
 $servername = "localhost:3306";
-$username = "musa";
-$password = "beykoz";
-$dbname = "yapaynetwork";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Veritabanı bağlantısını oluştur
 $conn = new mysqli($servername, $username, $password, $dbname);
