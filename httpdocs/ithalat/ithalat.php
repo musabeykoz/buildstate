@@ -4,9 +4,9 @@ session_start();
 
 // Veritabanı bağlantısı
 $servername = "localhost:3306";
-$username = "musa";
-$password = "beykoz";
-$dbname = "yapaynetwork";
+$username = "";
+$password = "";
+$dbname = "";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
